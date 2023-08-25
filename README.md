@@ -21,7 +21,7 @@ As etapas realizadas foram:
 
     c. Realize a implementação do treinamento de um modelo preditivo capaz de antever o cenário dos próximos 6 meses para os campos de interesse (SGMT_ASSISTENCIAL). Como exemplo, pode-se considerar a previsão para a categoria "Ambulatorial + Hospitalar sem obstetrícia" em relação a variáveis como (PORTE_OPERADORA), aberturas e fechamentos, entre outras. A estratégia e abordagem de previsão ficam à sua escolha.
     > Optei por prever a classificação do SGMT_ASSISTENCIAL com base em diversas features, e não apenas nas duas sugeridas. A primeira análise eu prefiro sempre considerar o máximo de informações para que, posteriormente, possa ir refinando o modelo. <p>
-    > Nessa primeira etapa, não encotnrei um resultado satisfatório, o que demandaria tempo para melhorar o trabalho. Como a case tem um tempo curto para ser realizado, as análises de melhoria não puderam ser feitas.
+    > A acurácia do modelo do Random Forest Classifier foi satisfatória. Outras métricas não foram verificadas devido ao tempo.
 
     d. Realização da manipulação, organização e processamento dos dados visando a criação de um arquivo de saída no formato CSV. Esse arquivo será utilizado como entrada para um sistema a ser desenvolvido no PowerBI. Assegure que o arquivo contenha dados de maneira organizada, suficientes para a geração de gráficos que facilitem a análise dos cenários históricos e previsões futuras derivadas do modelo preditivo. As informações relevantes para os gráficos podem ser escolhidas conforme a sua avaliação.
     > O arquivo foi salvo na pasta de Dados. Apenas duas colunas foram acrescidas: a da previsão e para verificar se o modelo acertou ou não na classificação.
